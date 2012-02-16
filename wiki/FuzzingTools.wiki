@@ -1,0 +1,44 @@
+    antiparser
+        Written in Python, simple and limited fuzzing framework.
+    Autodafe
+        Can be perceived as a more powerful version of SPIKE. It’s main contribution is the introduction of a UNIX-based debugging agent capable of weighting the possibility of a crash on any given fuzz input.
+    AxMan
+        A web-based ActiveX fuzzing engine written by HD Moore.
+    bugger
+        A Linux in-process fuzzer written by Michal Zalewski.
+    COMRaider
+        A Windows GUI fuzzer written by David Zimmer, designed to fuzz COM Object Interfaces.
+    Dfuz
+        Written in C, exposes a custom and easy to use scripting language for fuzzer deveopment.
+    DOM-Hanoi
+        Written by H D Moore and Aviv Raff, DOM-Hanoi is designed to identify common DHTML implementation flaws by adding/removing DOM elements
+    Evolutionary Fuzzing System 
+        A fuzzer which attempts to dynamically learn a protocol using code coverage and other feedback mechanisms.
+    FileH
+        A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches.
+    FileP
+        A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches.
+    Fuzzled
+        A Perl based generic fuzzing framework.
+    General Purpose Fuzzer 
+        Written in C, GPF has a number of modes ranging from simple pure random fuzzing to more complex protocol tokenization.
+    hamachi
+        Written by H D Moore and Aviv Raff, Hamachi will look for common DHTML implementation flaws by specifying common “bad” values for method arguments and property values.
+    Malybuzz
+        A Python tool focused in discovering programming faults in network software.
+    mangleme
+        An automated broken HTML generator and browser tester, originally used to find dozens of security and reliability problems in all major Web browsers.
+    Peach
+        Written in Python, an advanced and robust fuzzing framework which successfully separates and abstracts relevant concepts. Learning curve is a bit overwhelming.
+    Protocol Informatics
+        Slides, whitepaper and code from the last publicly seen snapshot from Marshall Beddoe’s work.
+    QueFuzz
+        Small fuzzer that uses libnetfilter_queue to take in packets from iptables. It’s fuzzing engine either randomly fuzzes binary or ASCII protocols or uses a basic fuzzing template to search and replace packet data.
+    Schemer
+        XML driven generic file and protocol fuzzer.
+    SMUDGE
+        Pure Python network protocol fuzzer from nd@felincemenace.
+    SPIKE
+        Written in C, exposes a custom API for fuzzer development. Probably the most widely used and popular framework.
+    TAOF (The Art of Fuzzing)
+        Written in Python, a cross-platform GUI driven network protocol fuzzing environment for both UNIX and Windows systems.
