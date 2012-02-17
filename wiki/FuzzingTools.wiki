@@ -42,3 +42,22 @@
         Written in C, exposes a custom API for fuzzer development. Probably the most widely used and popular framework.
     TAOF (The Art of Fuzzing)
         Written in Python, a cross-platform GUI driven network protocol fuzzing environment for both UNIX and Windows systems.
+
+
+
+spikefile
+pif
+htmler
+sysfuzz
+bed
+ircfuzz
+isic
+axfuzz
+fuzzserver
+stress2 (linux kernel fuzzing)
+mangle
+sshreader
+sfuzz
+dhcpfuzz
+scapy
+combust
