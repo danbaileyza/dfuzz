@@ -1,0 +1,13 @@
+Flayer ( http://code.google.com/p/flayer/ )
+
+Valgrind ( http://valgrind.org/ )
+
+!Exploitable  ( http://msecdbg.codeplex.com/ )
+
+Crashwrangler  ( http://seclists.org/dailydave/2009/q3/11 )
+
+Automated Exploit Generation  ( http://security.ece.cmu.edu/aeg/index.html )
+
+Pmcma  ( http://www.pmcma.org/downloads-2/ )
+
+Bitblaze  ( http://bitblaze.cs.berkeley.edu/ )
