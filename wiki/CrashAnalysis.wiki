@@ -11,3 +11,5 @@ Automated Exploit Generation  ( http://security.ece.cmu.edu/aeg/index.html )
 Pmcma  ( http://www.pmcma.org/downloads-2/ )
 
 Bitblaze  ( http://bitblaze.cs.berkeley.edu/ )
+
+Introspector ( http://introspector.sourceforge.net/ )
