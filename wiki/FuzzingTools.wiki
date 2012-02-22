@@ -35,6 +35,6 @@
 || sshreader || N/A || N/A || N/A || N/A ||
 || sfuzz || N/A || N/A || N/A || N/A ||
 || dhcpfuzz || N/A || N/A || N/A || N/A ||
-|| scapy || N/A || N/A || N/A || N/A ||
+|| scapy || Python || Win, Linux, Mac || http://www.secdev.org/projects/scapy/ || Scapy is a powerful interactive packet manipulation program. It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and much more.  ||
 || combust || N/A || N/A || N/A || N/A ||
 || hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || N/A ||
