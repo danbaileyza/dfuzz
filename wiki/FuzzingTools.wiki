@@ -1,7 +1,7 @@
 || *Tool* || *Language* || *Platform* || *Site* || *Description* ||
-|| antiparser || Python || N/A || N/A || Written in Python, simple and limited fuzzing framework. ||
-|| Autodafe || N/A || N/A || N/A || Can be perceived as a more powerful version of SPIKE. It’s main contribution is the introduction of a UNIX-based debugging agent capable of weighting the possibility of a crash on any given fuzz input. ||
-|| AxMan || N/A || N/A || N/A || A web-based ActiveX fuzzing engine written by HD-Moore. ||
+|| antiparser || Python || N/A || http://antiparser.sourceforge.net/ || Written in Python, simple and limited fuzzing framework. ||
+|| Autodafe || N/A || N/A || http://autodafe.sourceforge.net/ || Can be perceived as a more powerful version of SPIKE. It’s main contribution is the introduction of a UNIX-based debugging agent capable of weighting the possibility of a crash on any given fuzz input. ||
+|| AxMan || N/A || N/A || http://digitaloffense.net/tools/axman/ || A web-based ActiveX fuzzing engine written by HD-Moore. ||
 || Bugger || N/A || Linux || N/A || A Linux in-process fuzzer written by Michal Zalewski. ||
 || COMRaider || N/A || Win || N/A || A Windows GUI fuzzer written by David Zimmer, designed to fuzz COM Object Interfaces. ||
 || Dfuz || C || N/A || N/A || Written in C, exposes a custom and easy to use scripting language for fuzzer deveopment. ||
@@ -38,3 +38,4 @@
 || scapy || Python || Win, Linux, Mac || http://www.secdev.org/projects/scapy/ || Scapy is a powerful interactive packet manipulation program. It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and much more.  ||
 || combust || N/A || N/A || N/A || N/A ||
 || hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || N/A ||
+|| dranzer ||  N/A || N/A || http://www.cert.org/vuls/discovery/dranzer.html || N/A ||
