@@ -21,39 +21,20 @@
 || SMUDGE || Python || N/A || N/A || Pure Python network protocol fuzzer from nd@felincemenace. ||
 || SPIKE || N/A || N/A || N/A || Written in C, exposes a custom API for fuzzer development. Probably the most widely used and popular framework. ||
 || TAOF (The Art of Fuzzing) || Python || Win, Linux || N/A || Written in Python, a cross-platform GUI driven network protocol fuzzing environment for both UNIX and Windows systems. ||
-
-
-
-spikefile
-
-pif
-
-htmler
-
-sysfuzz
-
-bed
-
-ircfuzz
-
-isic
-
-axfuzz
-
-fuzzserver
-
-stress2 (linux kernel fuzzing)
-
-mangle
-
-sshreader
-
-sfuzz
-
-dhcpfuzz
-
-scapy
-
-combust
-
-hot fuzz (http://hotfuzz.sourceforge.net/) 
+|| spikefile || N/A || N/A || N/A || N/A ||
+|| pif || N/A || N/A || N/A || N/A ||
+|| htmler || N/A || N/A || N/A || N/A ||
+|| sysfuzz || N/A || N/A || N/A || N/A ||
+|| bed || N/A || N/A || N/A || N/A ||
+|| ircfuzz || N/A || N/A || N/A || N/A ||
+|| isic || N/A || N/A || N/A || N/A ||
+|| axfuzz || N/A || N/A || N/A || N/A ||
+|| fuzzserver || N/A || N/A || N/A || N/A ||
+|| stress2 (linux kernel fuzzing) || N/A || N/A || N/A || N/A ||
+|| mangle || N/A || N/A || N/A || N/A ||
+|| sshreader || N/A || N/A || N/A || N/A ||
+|| sfuzz || N/A || N/A || N/A || N/A ||
+|| dhcpfuzz || N/A || N/A || N/A || N/A ||
+|| scapy || N/A || N/A || N/A || N/A ||
+|| combust || N/A || N/A || N/A || N/A ||
+|| hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || N/A ||
