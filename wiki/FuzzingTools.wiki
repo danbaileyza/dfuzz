@@ -6,7 +6,7 @@
 || COMRaider || N/A || Win || N/A || A Windows GUI fuzzer written by David Zimmer, designed to fuzz COM Object Interfaces. ||
 || Dfuz || C || N/A || N/A || Written in C, exposes a custom and easy to use scripting language for fuzzer deveopment. ||
 || DOM-Hanoi || N/A || N/A || N/A || Written by H D Moore and Aviv Raff, DOM-Hanoi is designed to identify common DHTML implementation flaws by adding/removing DOM elements ||
-|| Evolutionary Fuzzing System || N/A || N/A || N/A || A fuzzer which attempts to dynamically learn a protocol using code coverage and other feedback mechanisms.
+|| Evolutionary Fuzzing System || N/A || N/A || N/A || A fuzzer which attempts to dynamically learn a protocol using code coverage and other feedback mechanisms. ||
 || FileH || N/A || N/A || N/A || A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || FileP || python || N/A || N/A || A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || Fuzzled || Perl || N/A || N/A || A Perl based generic fuzzing framework. ||
