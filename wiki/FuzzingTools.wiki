@@ -25,7 +25,7 @@
 || Spikefile || N/A || N/A || http://www.fuzzing.org/wp-content/SPIKEfile.tgz || N/A ||
 || PIF || N/A || N/A || N/A || N/A ||
 || htmler || N/A || N/A || http://www.securiteam.com/tools/6Z00N1PBFK.html || N/A ||
-|| Sysfuzz || N/A || N/A || http://download.corrupteddatarecovery.com/download.aspx?i=Download+sysfuzz.tar.gz&c=8xyGECUXsxCJU3OsVgIHUV0NpSAuHSrcYuc43FyZs7tF%2FVqjJQ8oof8XJVIzm2mJdNEyeF9rFoWm28vntMvbaI02NBcpKROGqFYiGluyVx4%3D ??? || N/A ||
+|| Sysfuzz || N/A || N/A || http://good.net/dl/bd/www.indianz.ch/tools/attack/sysfuzz.tar.gz || N/A ||
 || Iknowthis || N/A || N/A || http://code.google.com/p/iknowthis/source/browse/http://code.google.com/p/iknowthis/ || N/A || 
 || Xnufuzz || N/A || N/A || https://github.com/fintler/xnufuzz || N/A || 
 || Bed || Perl || N/A || http://www.aldeid.com/wiki/Bed || BED (aka Bruteforce Exploit Detector) is a plain-text protocol fuzzer that checks software for common vulnerabilities like buffer overflows, format string bugs, integer overflows, etc ||
