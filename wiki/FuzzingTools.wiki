@@ -50,3 +50,4 @@
 || KLEE ||  N/A || Linux || http://klee.llvm.org/ || Symbolic execution framework and requires llvm ||
 || Buzzfuzz ||  N/A || N/A || http://people.csail.mit.edu/vganesh/buzzfuzz.html || Buzzfuzz is a dynamic taint-based directed whitebox fuzzing tool. ||
 || Jfuzz ||  N/A || N/A || http://people.csail.mit.edu/akiezun/jfuzz/ || N/A || 
+|| zzuf ||  N/A || N/A || http://caca.zoy.org/wiki/zzuf || N/A || 
