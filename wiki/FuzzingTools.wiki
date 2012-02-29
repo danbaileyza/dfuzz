@@ -44,3 +44,4 @@
 || hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || N/A ||
 || dranzer ||  N/A || N/A || http://www.cert.org/vuls/discovery/dranzer.html || N/A ||
 || mistress ||  Python || N/A || http://www.koders.com/python/fidAB461618BA5DFFF2D50E6BEC124C00A8A2F89F8C.aspx?s=socket || N/A ||
+|| minifuzz ||  C++ || Win || http://examples.oreilly.de/english_examples/9780735622142/cd_contents/MiniFuzz/ || N/A ||
