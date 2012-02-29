@@ -47,4 +47,4 @@
 || minifuzz ||  C++ || Win || http://examples.oreilly.de/english_examples/9780735622142/cd_contents/MiniFuzz/ || N/A ||
 || smartfuzz ||  C || Linux || https://github.com/dmolnar/SmartFuzz || N/A ||
 || PROTOS ||  Java || N/A || https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-h2250v4 || N/A ||
-
+|| KLEE ||  N/A || Linux || http://klee.llvm.org/ || Symbolic execution framework and requires llvm ||
