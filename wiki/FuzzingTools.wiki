@@ -9,7 +9,7 @@
 || Evolutionary Fuzzing System || N/A || N/A || N/A || A fuzzer which attempts to dynamically learn a protocol using code coverage and other feedback mechanisms. ||
 || FileH || Haskell || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || FileP || Python || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
-|| Fuzzled || Perl || N/A || http://www.portcullis-security.com/16.php || A Perl based generic fuzzing framework. ||
+|| Fuzzled || Perl || Linux || http://www.portcullis-security.com/16.php || A Perl based generic fuzzing framework. ||
 || Fuzzbox || Python || N/A || http://www.isecpartners.com/application-security-tools/fuzzbox.html || Fuzzbox is a multi-codec media fuzzer. || 
 || General Purpose Fuzzer || C || N/A || http://www.gnucitizen.org/blog/general-purpose-fuzzer_py/ || Written in C, GPF has a number of modes ranging from simple pure random fuzzing to more complex protocol tokenization. ||
 || hamachi || N/A || N/A || http://digitaloffense.net/tools/hamachi/hamachi.html || Written by H D Moore and Aviv Raff, Hamachi will look for common DHTML implementation flaws by specifying common “bad” values for method arguments and property values. ||
