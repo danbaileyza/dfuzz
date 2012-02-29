@@ -10,7 +10,7 @@
 || FileH || Haskell || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || FileP || Python || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || Fuzzled || Perl || N/A || N/A || A Perl based generic fuzzing framework. ||
-|| Fuzzbox || N/A || N/A || http://www.isecpartners.com/application-security-tools/fuzzbox.html || Fuzzbox is a multi-codec media fuzzer. || 
+|| Fuzzbox || Python || N/A || http://www.isecpartners.com/application-security-tools/fuzzbox.html || Fuzzbox is a multi-codec media fuzzer. || 
 || General Purpose Fuzzer || C || N/A || http://www.gnucitizen.org/blog/general-purpose-fuzzer_py/ || Written in C, GPF has a number of modes ranging from simple pure random fuzzing to more complex protocol tokenization. ||
 || hamachi || N/A || N/A || http://digitaloffense.net/tools/hamachi/hamachi.html || Written by H D Moore and Aviv Raff, Hamachi will look for common DHTML implementation flaws by specifying common “bad” values for method arguments and property values. ||
 || Malybuzz || Python || N/A || http://sourceforge.net/projects/malybuzz/ || A Python tool focused in discovering programming faults in network software. ||
