@@ -7,8 +7,8 @@
 || Dfuz || C || N/A || http://code.google.com/p/dfuz/ || Written in C, exposes a custom and easy to use scripting language for fuzzer deveopment. ||
 || DOM-Hanoi || N/A || N/A || http://digitaloffense.net/tools/domhanoi/domhanoi.html || Written by H D Moore and Aviv Raff, DOM-Hanoi is designed to identify common DHTML implementation flaws by adding/removing DOM elements ||
 || Evolutionary Fuzzing System || N/A || N/A || N/A || A fuzzer which attempts to dynamically learn a protocol using code coverage and other feedback mechanisms. ||
-|| FileH || N/A || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
-|| FileP || python || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
+|| FileH || Haskell || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
+|| FileP || Python || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || Fuzzled || Perl || N/A || N/A || A Perl based generic fuzzing framework. ||
 || Fuzzbox || N/A || N/A || http://www.isecpartners.com/application-security-tools/fuzzbox.html || Fuzzbox is a multi-codec media fuzzer. || 
 || General Purpose Fuzzer || C || N/A || http://www.gnucitizen.org/blog/general-purpose-fuzzer_py/ || Written in C, GPF has a number of modes ranging from simple pure random fuzzing to more complex protocol tokenization. ||
