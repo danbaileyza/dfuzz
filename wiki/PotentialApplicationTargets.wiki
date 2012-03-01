@@ -7,6 +7,7 @@
 || Open Office || Linux, Win || N/A || 
 || VLC || Linux, Win || N/A ||
 || Quicktime || Win, Mac || N/A || 
+|| Realplayer || Win || N/A || 
 || Microsoft Silverlight || Win || N/A || 
 || Gimp || Linux, Win || N/A ||
 || Adobe Reader || Linux, Win, Mac || N/A || 
