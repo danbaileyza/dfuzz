@@ -6,7 +6,7 @@
 || Foxit Reader || Win || N/A || 
 || Open Office || Linux, Win || N/A || 
 || VLC || Linux, Win || N/A ||
-|| Quicktime || Win || N/A || 
+|| Quicktime || Win, Mac || N/A || 
 || Microsoft Silverlight || Win || N/A || 
 || Gimp || Linux, Win || N/A ||
 || Adobe Reader || Linux, Win, Mac || N/A || 
