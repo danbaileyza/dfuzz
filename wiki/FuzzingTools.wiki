@@ -51,3 +51,4 @@
 || Buzzfuzz ||  N/A || N/A || http://people.csail.mit.edu/vganesh/buzzfuzz.html || N/A || Buzzfuzz is a dynamic taint-based directed whitebox fuzzing tool. ||
 || Jfuzz ||  N/A || N/A || http://people.csail.mit.edu/akiezun/jfuzz/ || N/A || N/A || 
 || zzuf ||  N/A || N/A || http://caca.zoy.org/wiki/zzuf || N/A || N/A || 
+|| oofuzzer || Perl || Linux || http://www.cl.cam.ac.uk/~wmk26/openoffice/ || N/A || Open office fuzzer || 
