@@ -9,7 +9,7 @@
 || Evolutionary Fuzzing System || N/A || N/A || N/A || Evolutionary || A fuzzer which attempts to dynamically learn a protocol using code coverage and other feedback mechanisms. ||
 || FileH || Haskell || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || Mutation || A haskell-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
 || FileP || Python || N/A || http://www.isecpartners.com/application-security-tools/file-fuzzers.html || Mutation || A python-based file fuzzer that generates mutated files from a list of source files and feeds them to an external program in batches. ||
-|| Fuzzled || Perl || Linux || http://www.portcullis-security.com/16.php || N/A || A Perl based generic fuzzing framework. ||
+|| Fuzzled || Perl || Linux || http://www.portcullis-security.com/16.php || Generation || A Perl based generic fuzzing framework. ||
 || Fuzzbox || Python || Linux || http://www.isecpartners.com/application-security-tools/fuzzbox.html || Mutation || Fuzzbox is a multi-codec media fuzzer. || 
 || General Purpose Fuzzer || C || N/A || http://www.gnucitizen.org/blog/general-purpose-fuzzer_py/ || N/A || Written in C, GPF has a number of modes ranging from simple pure random fuzzing to more complex protocol tokenization. ||
 || hamachi || N/A || N/A || http://digitaloffense.net/tools/hamachi/hamachi.html || N/A || Written by H D Moore and Aviv Raff, Hamachi will look for common DHTML implementation flaws by specifying common “bad” values for method arguments and property values. ||
@@ -22,7 +22,7 @@
 || SMUDGE || Python || N/A || http://gpo.zugaina.org/app-fuzz/smudge/euscan || N/A || Pure Python network protocol fuzzer from nd@felincemenace. ||
 || SPIKE || N/A || N/A || http://immunityinc.com/resources-freesoftware.shtml || N/A || Written in C, exposes a custom API for fuzzer development. Probably the most widely used and popular framework. ||
 || TAOF (The Art of Fuzzing) || Python || Win, Linux || http://sourceforge.net/projects/taof/ || N/A || Written in Python, a cross-platform GUI driven network protocol fuzzing environment for both UNIX and Windows systems. ||
-|| Spikefile || N/A || N/A || http://www.fuzzing.org/wp-content/SPIKEfile.tgz || N/A || N/A ||
+|| Spikefile || C || Linux || http://www.fuzzing.org/wp-content/SPIKEfile.tgz || N/A || N/A ||
 || PIF || N/A || N/A || N/A || N/A || N/A ||
 || htmler || N/A || N/A || http://www.securiteam.com/tools/6Z00N1PBFK.html || N/A || N/A ||
 || Sysfuzz || N/A || N/A || http://good.net/dl/bd/www.indianz.ch/tools/attack/sysfuzz.tar.gz || N/A || N/A ||
