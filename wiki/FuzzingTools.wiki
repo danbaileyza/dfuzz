@@ -13,7 +13,7 @@
 || Fuzzbox || Python || Linux || http://www.isecpartners.com/application-security-tools/fuzzbox.html || Mutation || Fuzzbox is a multi-codec media fuzzer. || 
 || General Purpose Fuzzer || C || N/A || http://www.gnucitizen.org/blog/general-purpose-fuzzer_py/ || N/A || Written in C, GPF has a number of modes ranging from simple pure random fuzzing to more complex protocol tokenization. ||
 || hamachi || N/A || N/A || http://digitaloffense.net/tools/hamachi/hamachi.html || N/A || Written by H D Moore and Aviv Raff, Hamachi will look for common DHTML implementation flaws by specifying common “bad” values for method arguments and property values. ||
-|| Malybuzz || Python || N/A || http://sourceforge.net/projects/malybuzz/ || N/A || A Python tool focused in discovering programming faults in network software. ||
+|| Malybuzz || Python || Linux || http://sourceforge.net/projects/malybuzz/ || Generation || A Python tool focused in discovering programming faults in network software. ||
 || mangleme || N/A || N/A || http://freecode.com/projects/mangleme || N/A || An automated broken HTML generator and browser tester, originally used to find dozens of security and reliability problems in all major Web browsers. ||
 || Peach || Python || Win || http://peachfuzzer.com/ || Generation || Written in Python, an advanced and robust fuzzing framework which successfully separates and abstracts relevant concepts. Learning curve is a bit overwhelming. ||
 || Protocol Informatics || N/A || N/A || http://www.4tphi.net/~awalters/PI/PI.html || N/A || Slides, whitepaper and code from the last publicly seen snapshot from Marshall Beddoe’s work. ||
