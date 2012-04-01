@@ -4,3 +4,5 @@ Fuzzled Framework:
 https://docs.google.com/viewer?a=v&q=cache:puwCInpeHqUJ:www.nth-dimension.org.uk/utils/get.php?downloadsid%3D35+&hl=en&gl=us&pid=bl&srcid=ADGEEShhIosEC0Lv35nyyCI75x-Ox25PQkFIfn_2MEXa-tlKDk7XPsxn81JEfbiUYlkujhc2_sLWMCzvUhdwNow276NO6hcebe7GGVt5tvDlV14XdpPCJkGIjPn4vpii5oVDt5321vTb&sig=AHIEtbRMRyjzh977hyWEm2stqo3BuThW_A&pli=1
 
 Dranzer: http://www.cert.org/archive/pdf/dranzer.pdf
+
+Windbg (Automation): http://www.codeproject.com/Articles/6230/Auto-Memory-Dump-on-Crash-of-an-Application
