@@ -1,5 +1,5 @@
 || *Tool* || *Language* || *Platform* || *Site* || *Fuzzer Type* || *Description* ||
-|| antiparser || Python || N/A || http://antiparser.sourceforge.net/ || N/A || Written in Python, simple and limited fuzzing framework. ||
+|| antiparser || Python || N/A || http://antiparser.sourceforge.net/ || Generation || Written in Python, simple and limited fuzzing framework. ||
 || Autodafe || N/A || N/A || http://autodafe.sourceforge.net/ || N/A || Can be perceived as a more powerful version of SPIKE. It’s main contribution is the introduction of a UNIX-based debugging agent capable of weighting the possibility of a crash on any given fuzz input. ||
 || AxMan || N/A || N/A || http://digitaloffense.net/tools/axman/ || N/A || A web-based ActiveX fuzzing engine written by HD-Moore. ||
 || Bugger || N/A || Linux || N/A || N/A || A Linux in-process fuzzer written by Michal Zalewski. ||
