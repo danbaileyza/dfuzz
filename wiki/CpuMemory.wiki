@@ -13,6 +13,8 @@ for((i=0;;++i)) { echo $i ` grep vruntime /proc/\`pidof firefox\`/sched | grep -
 
 cut -d ' ' -f1,2 data > new_data
 
+cut -d ' ' -f1,3 data > new_data #????
+
 graph -T X new_data
 
 }}}
