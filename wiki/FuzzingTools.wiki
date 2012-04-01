@@ -28,7 +28,7 @@
 || Sysfuzz || N/A || N/A || http://good.net/dl/bd/www.indianz.ch/tools/attack/sysfuzz.tar.gz || N/A || N/A ||
 || Iknowthis || N/A || N/A || http://code.google.com/p/iknowthis/source/browse/http://code.google.com/p/iknowthis/ || N/A || N/A || 
 || Xnufuzz || N/A || N/A || https://github.com/fintler/xnufuzz || N/A || N/A || 
-|| Bed || Perl || Linux, Win || http://www.aldeid.com/wiki/Bed, http://web.archive.org/web/20101229024258/http://www.remote-exploit.org/wp-content/uploads/2010/01/bed-0.5.tar.gz || N/A || BED (aka Bruteforce Exploit Detector) is a plain-text protocol fuzzer that checks software for common vulnerabilities like buffer overflows, format string bugs, integer overflows, etc ||
+|| Bed || Perl || Linux, Win || http://www.aldeid.com/wiki/Bed, http://web.archive.org/web/20101229024258/http://www.remote-exploit.org/wp-content/uploads/2010/01/bed-0.5.tar.gz || Generation || BED (aka Bruteforce Exploit Detector) is a plain-text protocol fuzzer that checks software for common vulnerabilities like buffer overflows, format string bugs, integer overflows, etc ||
 || IRCfuzz || N/A || N/A || N/A || N/A || N/A ||
 || isic || N/A || N/A || N/A || N/A || N/A ||
 || axfuzz || N/A || N/A || http://sourceforge.net/projects/axfuzz/ || N/A || An ActiveX/COM enumerator and fuzzer  ||
