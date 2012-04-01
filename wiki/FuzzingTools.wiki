@@ -41,7 +41,7 @@
 || dhcpfuzz || N/A || N/A || http://good.net/dl/bd/www.indianz.ch/tools/attack/dhcpfuzz.tar.gz/info || N/A || N/A ||
 || scapy || Python || Win, Linux, Mac || http://www.secdev.org/projects/scapy/ || Generation || Scapy is a powerful interactive packet manipulation program. It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and much more.  ||
 || combust || N/A || N/A || N/A || N/A || N/A ||
-|| hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || N/A || N/A ||
+|| hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || Generation || Fuzzer based on the peach framework. Basic protocols are implemented in the Peach framework ||
 || dranzer ||  N/A || N/A || http://www.cert.org/vuls/discovery/dranzer.html || N/A || N/A ||
 || mistress ||  Python || N/A || http://www.koders.com/python/fidAB461618BA5DFFF2D50E6BEC124C00A8A2F89F8C.aspx?s=socket || N/A || N/A ||
 || minifuzz ||  C++ || Win || http://examples.oreilly.de/english_examples/9780735622142/cd_contents/MiniFuzz/ || N/A || N/A ||
