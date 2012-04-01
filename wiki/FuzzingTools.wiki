@@ -43,7 +43,7 @@
 || combust || N/A || N/A || N/A || N/A || N/A ||
 || hot fuzz || N/A || N/A || http://hotfuzz.sourceforge.net/ || Generation || Fuzzer based on the peach framework. Basic protocols are implemented in the Peach framework ||
 || Dranzer ||  C || Win || http://www.cert.org/vuls/discovery/dranzer.html || N/A || ActiveX Fuzzer built to target Microsoft Internet Explorer ||
-|| mistress ||  Python || N/A || http://www.koders.com/python/fidAB461618BA5DFFF2D50E6BEC124C00A8A2F89F8C.aspx?s=socket || N/A || N/A ||
+|| Mistress ||  Python || Linux, Win || http://www.koders.com/python/fidAB461618BA5DFFF2D50E6BEC124C00A8A2F89F8C.aspx?s=socket || Generation || File and Protocol fuzzer based on templates created by the user.  ||
 || minifuzz ||  C++ || Win || http://examples.oreilly.de/english_examples/9780735622142/cd_contents/MiniFuzz/ || N/A || N/A ||
 || smartfuzz ||  C || Linux || https://github.com/dmolnar/SmartFuzz || N/A || N/A ||
 || PROTOS ||  Java || N/A || https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-h2250v4 || N/A || N/A ||
