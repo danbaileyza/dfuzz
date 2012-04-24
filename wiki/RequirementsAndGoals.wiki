@@ -1,4 +1,4 @@
-=Requirmenets And Goals=
+=Requirements And Goals=
  # Find previously unknown security vulnerabilities
  # Framework should be open and extendable
  # Framework should provide support for multiple host and guest platforms
