@@ -6,3 +6,5 @@ https://docs.google.com/viewer?a=v&q=cache:puwCInpeHqUJ:www.nth-dimension.org.uk
 Dranzer: http://www.cert.org/archive/pdf/dranzer.pdf
 
 Windbg (Automation): http://www.codeproject.com/Articles/6230/Auto-Memory-Dump-on-Crash-of-an-Application
+
+Links for static and dynamic analysis: http://www.reddit.com/r/ReverseEngineering/comments/smf4u/reverser_wanting_to_develop_mathematically/c4fa6yl
