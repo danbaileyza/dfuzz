@@ -19,7 +19,7 @@
  # Clients will be virtualized and will use the Open Virtualization Format
  # Server shall use MySQL 
  # VPN tunnels will be used to provide CIA for users and the server
- # VPN technology should adhear to the IPMEIR standards defined by the NSA ( www.nsa.gov/ia/_files/IPMEIR_IS100Core_pdfR1.pdf )
+ # VPN technology should adhear to the IPMEIR standards defined by the NSA ( http://www.nsa.gov/ia/_files/IPMEIR_IS100Core_pdfR1.pdf )
  # Network error recovery will be provided by IPMEIR ORPHRC feature
  # Authentication should use certificates
  # To protect against outsider and insider threats IP allow lists should be created and altered if necessary
