@@ -1,0 +1,16 @@
+=Requirmenets And Goals=
+ # Find previously unknown security vulnerabilities
+ # Framework should be open and extendable
+ # Framework should provide support for multiple host and guest platforms
+ # Framework should take advantage of virtualization technology 
+ # Framework should support automated crash analysis
+ # Framework should support code coverage analysis 
+ # Framework should support fuzzing of multiple applications and multiple protocols
+ # The distributed protocol for the framework should provide configuration managment, polling, error recovery and security (confidentiality, avalibility, integrity). 
+ # Core framework code shall be devleoped in Python
+ # Automation should be a top priority
+ # Provide good support for network elasticity (nodes being added and deleted)
+ # Framwork should have minimal user interaction  
+ # Anyone should be able to join and participate
+ # Mutations, fuzzers, mutexes, etc.. should be gathered or derived by knowledable security experts. 
+ # Framework should support multiple fuzzers
