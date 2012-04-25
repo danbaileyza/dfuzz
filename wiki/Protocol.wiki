@@ -1,14 +1,24 @@
 =Messages=
 
 ==PUSH==
+
 PUSH PROGRAM
+ *Message from the server to tell a client to install a program
 
 PUSH CONFIG
+ *Message from the server to setup or configure a program on the client
 
 PUSH DATA
+ *Message from the server that initiates a data transfer
 
 PUSH UPDATE
+ *Message from the server that allows the client to update a program or the operating system
 
+PUSH DELETE
+ *Message from the server that will tell the client to delete a local resource
+
+PUSH KILL
+ *Message from the server that will kill a process or set of processes
 
 ==QUERY==
 
