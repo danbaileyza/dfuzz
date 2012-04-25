@@ -3,38 +3,41 @@
 ==PUSH==
 
 PUSH PROGRAM
- *Message from the server to tell a client to install a program
+ * Message from the server to tell a client to install a program
 
 PUSH CONFIG
- *Message from the server to setup or configure a program on the client
+ * Message from the server to setup or configure a program on the client
 
 PUSH DATA
- *Message from the server that initiates a data transfer
+ * Message from the server that initiates a data transfer
 
 PUSH UPDATE
- *Message from the server that allows the client to update a program or the operating system
+ * Message from the server that allows the client to update a program or the operating system
 
 PUSH DELETE
- *Message from the server that will tell the client to delete a local resource
+ * Message from the server that will tell the client to delete a local resource
 
 PUSH KILL
- *Message from the server that will kill a process or set of processes
+ * Message from the server that will kill a process or set of processes
 
 ==QUERY==
 
 QUERY STATUS
+ * Message from the server asking for the status of running fuzzing operations
 
 QUERY RESOURCES
+ * Message from the server asking for a resource count (memory, cpu usage, etc) on the client
 
 QUERY SETUP
-
+ * Message from the server asking what applications, configurations and data are installed on the client
 
 ==REPORT==
 
 REPORT CRASH
+ * Message from the client telling the server that an application crashed and the details of the crash
 
 REPORT PROGRESS
+ * Message from the client telling the server the progress of fuzzing
 
 REPORT READY
-
-
+ * Message from the client telling the server that it is up and ready to fuzz. This will be the first message sent to the server. 
