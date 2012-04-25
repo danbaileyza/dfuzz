@@ -54,3 +54,8 @@ Messages will be transfered over TCP connection. <br>
 Messages should be transfered over an encrypted tunnel from and to a client and a server. <br> 
 Client to client interaction is a feature that will be explored in later releases of dfuzz. <br>
 Messages will typically exhibit a REQUEST RESPONSE behavior. <br>
+
+
+
+=Header Format=
+| Message Type (4 bytes) (integer) | Request/Response (1 byte) (integer) | Identification (16 bytes) (integer) | Padding (4 bytes) | Data Length (8 Bytes) (integer) | Data (Variable) (raw) 
