@@ -20,6 +20,9 @@ PUSH DELETE
 PUSH KILL
  * Message from the server that will kill a process or set of processes
 
+PUSH START
+ * Message from the server to the client to start a fuzzing or analysis sequence
+
 ==QUERY==
 
 QUERY STATUS
@@ -34,10 +37,20 @@ QUERY SETUP
 ==REPORT==
 
 REPORT CRASH
- * Message from the client telling the server that an application crashed and the details of the crash
+ * Message from the client telling the server that an application being fuzzed crashed. The message will also detail information about the crash
 
 REPORT PROGRESS
  * Message from the client telling the server the progress of fuzzing
 
 REPORT READY
  * Message from the client telling the server that it is up and ready to fuzz. This will be the first message sent to the server. 
+
+REPORT ERROR
+ * Message from the client reporting an error condition
+
+=Synchronization=
+Protocol will be asynchronous. <br> 
+Messages will be transfered over TCP connection. <br> 
+Messages should be transfered over an encrypted tunnel from and to a client and a server. <br> 
+Client to client interaction is a feature that will be explored in later releases of dfuzz. <br>
+Messages will typically exhibit a REQUEST RESPONSE behavior. <br>
