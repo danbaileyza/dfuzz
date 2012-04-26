@@ -23,6 +23,9 @@ PUSH KILL
 PUSH START
  * Message from the server to the client to start a fuzzing or analysis sequence
 
+PUSH CMD
+ * Message from the server to the client to execute a command
+
 ==QUERY==
 
 QUERY STATUS
