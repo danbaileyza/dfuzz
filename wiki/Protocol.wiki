@@ -61,4 +61,4 @@ Messages will typically exhibit a REQUEST RESPONSE behavior. <br>
 
 
 =Header Format=
-| Message Type (4 bytes) (integer) | Next Header (4 bytes) | Length (8 bytes) | Request/Response (1 byte) (integer) | Message ID (8 bytes) | Identification (16 bytes) (integer) | Padding (4 bytes) (zero) | Data (Variable) (raw) 
+|"AA" (2 bytes) (hex)| Message Type (4 bytes) (integer) | Next Header (4 bytes) | Length (8 bytes) | Request/Response (1 byte) (integer) | Message ID (8 bytes) | Identification (16 bytes) (integer) | Padding (4 bytes) (zero) | Data (Variable) (raw) 
