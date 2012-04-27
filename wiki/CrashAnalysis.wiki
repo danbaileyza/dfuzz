@@ -1,5 +1,4 @@
 
-
 Flayer ( http://code.google.com/p/flayer/ )
 
 Valgrind ( http://valgrind.org/ )
@@ -22,7 +21,7 @@ Introspector ( http://introspector.sourceforge.net/ )
 Core File analysis
 
 abrt-action-analyze-core (Analysis of libraries that are loaded)
- *abrt-action-analyze-core -c core.1090
+ * abrt-action-analyze-core -c core.1090
  
 abrt-action-generate-backtrace (Uses gdb in batch mode("gdb -b"))
 
