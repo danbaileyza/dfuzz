@@ -1,7 +1,8 @@
-
 Flayer ( http://code.google.com/p/flayer/ )
 
 Valgrind ( http://valgrind.org/ )
+
+ * valgrind --xml=yes --xml-file=vcrash.xml --trace-children=yes ./a.out "%n%n%n%n%n%n"
 
 !Exploitable  ( http://msecdbg.codeplex.com/ )
 
