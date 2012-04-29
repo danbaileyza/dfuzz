@@ -24,7 +24,10 @@ Introspector ( http://introspector.sourceforge.net/ )
 =Core File analysis=
 
 gdb
- * echo "bt" > batchfile; echo "quit" >> batchfile; gdb a.out core.9648 -x batchfile | grep " 0x" > bt.txt  #get backtrace and redirect to a file
+{{{ 
+#get backtrace and redirect to a file
+echo "bt" > batchfile; echo "quit" >> batchfile; gdb a.out core.9648 -x batchfile | grep " 0x" > bt.txt  
+}}}
 
 abrt-action-analyze-core (Analysis of libraries that are loaded)
  * abrt-action-analyze-core -c core.1090
@@ -37,4 +40,8 @@ man core (core file names can be changed)
 
 lldb ( http://lldb.llvm.org/ )
 
- 
+strings (look for strings in the core file where the mutated pdf files are located)
+{{{ 
+strings -n 10 core.11203 | grep "fuzzing_applications/filep/out" | grep pdf | head -1
+/home/username/workspace/dfuzz/trunk/fuzzing_applications/filep/out/sample-2.pdf
+}}}
