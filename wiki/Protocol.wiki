@@ -67,7 +67,8 @@ REPORT RESPONSE
 Protocol will be asynchronous. <br> 
 Messages will be transferred over TCP connection. <br>
 Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22. <br> 
-Messages should be transferred over an encrypted tunnel from and to a client and a server. <br> 
+Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification <br> 
+Encrypted traffic can be transferred in transport or tunnel mode. <br>
 Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
 The Dfuzz control plain traffic (ie., traffic over tcp port 12456) will be a binary protocol. The protocol will be a length specified protocol.  
@@ -95,3 +96,10 @@ Server to server interaction is a potential feature that will be explored in lat
 || Users || 4 bytes ||  Number of users (Integer)||
 || Username || 4 bytes || This field will be repeated for each additional user (Ascii) || 
 
+=REPORT CRASH Header Format=
+|| *Field || *Length || *Value ||
+|| Next Header || 4 bytes || Integer ||
+|| Length || 8 bytes || Integer ||
+|| Job ID || 8 bytes || Integer ||
+|| Unique Crash Identifier Type || 2 bytes || Number representing the unique crash identification method. This field will be repeated for each crash identifier type and its subsequent crash hash. Crash Identification type implies encoding and hashing algorithm (Integer) ||
+|| Unique Crash Hash || 32 bytes || Unique hash (Hex) ||
