@@ -80,7 +80,7 @@ Server to server interaction is a potential feature that will be explored in lat
 =DFUZZ Header Format=
 || *Field || *Length || *Value ||
 || DFUZZ Header Identification Number || 4 bytes || AAAA (hex) ||
-|| Message Type || 4 bytes || Integer  ||
+|| Message Type || 4 bytes || Integer (See "Message Type" section for more details) ||
 || Next Header || 4 bytes || Integer || 
 || Length || 8 bytes || Length of header+data ||
 || Identification || 16 bytes || Integer ||
