@@ -66,8 +66,8 @@ REPORT RESPONSE
 =Synchronization=
 Protocol will be asynchronous. <br> 
 Messages will be transferred over TCP connection. <br>
-Control Plane Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22 using the SFTP protocol outlined by its respective ietf specification ( http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13 ). <br> 
-Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification. <br> 
+Control Plane Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22 using the SFTP protocol outlined by its respective IETF specification ( http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13 ). <br> 
+Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification ( http://www.nsa.gov/ia/_files/IPMEIR_IS100Core_pdfR1.pdf ). <br> 
 Encrypted traffic can be transferred in transport or tunnel mode. <br>
 Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
