@@ -72,8 +72,8 @@ Encrypted traffic can be transferred in transport or tunnel mode. <br>
 Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
 The Dfuzz control plain traffic (ie., traffic over tcp port 12456) will be a binary protocol. The protocol will be a length specified protocol.  
-Client to client interaction is a potential feature that will be explored in later releases of dfuzz. <br>
-Server to server interaction is a potential feature that will be explored in later releases of dfuzz. <br>
+Client to client interaction is a potential feature that will be explored in later releases of Dfuzz. <br>
+Server to server interaction is a potential feature that will be explored in later releases of Dfuzz. <br>
 
 
 
