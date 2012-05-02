@@ -66,7 +66,7 @@ REPORT RESPONSE
 =Synchronization=
 Protocol will be asynchronous. <br> 
 Messages will be transferred over TCP connection. <br>
-Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22. <br> 
+Control Plane Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22 using the SFTP protocol outlined by its respective ietf specification ( http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13 ). <br> 
 Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification. <br> 
 Encrypted traffic can be transferred in transport or tunnel mode. <br>
 Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
@@ -105,6 +105,12 @@ Server to server interaction is a potential feature that will be explored in lat
 || Unique Crash Hash || 32 bytes || Unique hash (Hex) ||
 || Full Path To File || 12 bytes || Path to file that caused crash (Ascii) || 
 || Full Path To Original File || 12 bytes || OPTIONAL FIELD. Original non mutated file or packet that was used to generate the crash. (Ascii) ||
+
+=REPORT RESPONSE Header Format=
+|| *Field || *Length || *Value ||
+|| Next Header || 4 bytes || Integer ||
+|| Length || 8 bytes || Integer ||
+|| Response Status Code || 4 bytes || 1 (Success), 2 (Error), 3 (Acknoledge-Continue) || 
 
 =PUSH CONFIG Header Format=
 || *Field || *Length || *Value ||
