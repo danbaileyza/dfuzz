@@ -1,10 +1,11 @@
-http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cts=1331605334628&ved=0CFAQFjAF&url=http%3A%2F%2Fwww.defcon.org%2Fimages%2Fdefcon-14%2Fdc-14-presentations%2FDC-14-DeMott.pdf&ei=Rq9eT9-MM7CMigLi-7m1BA&usg=AFQjCNH6JhGgDMggL92wh2TlRw1A13C7qg
 
-Fuzzled Framework: 
-https://docs.google.com/viewer?a=v&q=cache:puwCInpeHqUJ:www.nth-dimension.org.uk/utils/get.php?downloadsid%3D35+&hl=en&gl=us&pid=bl&srcid=ADGEEShhIosEC0Lv35nyyCI75x-Ox25PQkFIfn_2MEXa-tlKDk7XPsxn81JEfbiUYlkujhc2_sLWMCzvUhdwNow276NO6hcebe7GGVt5tvDlV14XdpPCJkGIjPn4vpii5oVDt5321vTb&sig=AHIEtbRMRyjzh977hyWEm2stqo3BuThW_A&pli=1
 
-Dranzer: http://www.cert.org/archive/pdf/dranzer.pdf
-
-Windbg (Automation): http://www.codeproject.com/Articles/6230/Auto-Memory-Dump-on-Crash-of-an-Application
-
-Links for static and dynamic analysis: http://www.reddit.com/r/ReverseEngineering/comments/smf4u/reverser_wanting_to_develop_mathematically/c4fa6yl
+|| *Author(s) || *Title || *Link ||
+|| David P. Anderson, Eric Korpela, Rom Walton, || High-Performance Task Distribution for Volunteer Computing || http://boinc.berkeley.edu/boinc_papers/server_perf/server_perf.pdf ||
+||Charlie Miller|| Fuzz By Number|| http://cansecwest.com/csw08/csw08-miller.pdf || 
+|| Jerid DeMott || The Evolving Art Of Fuzzing || http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cts=1331605334628&ved=0CFAQFjAF&url=http%3A%2F%2Fwww.defcon.org%2Fimages%2Fdefcon-14%2Fdc-14-presentations%2FDC-14-DeMott.pdf&ei=Rq9eT9-MM7CMigLi-7m1BA&usg=AFQjCNH6JhGgDMggL92wh2TlRw1A13C7qg ||
+|| Tim Brown || Fuzzled Framework || https://docs.google.com/viewer?a=v&q=cache:puwCInpeHqUJ:www.nth-dimension.org.uk/utils/get.php?downloadsid%3D35+&hl=en&gl=us&pid=bl&srcid=ADGEEShhIosEC0Lv35nyyCI75x-Ox25PQkFIfn_2MEXa-tlKDk7XPsxn81JEfbiUYlkujhc2_sLWMCzvUhdwNow276NO6hcebe7GGVt5tvDlV14XdpPCJkGIjPn4vpii5oVDt5321vTb&sig=AHIEtbRMRyjzh977hyWEm2stqo3BuThW_A&pli=1 ||
+|| N/A || Dranzer || http://www.cert.org/archive/pdf/dranzer.pdf ||
+|| N/A || Windbg (Automation) || http://www.codeproject.com/Articles/6230/Auto-Memory-Dump-on-Crash-of-an-Application ||
+|| N/A || Links for static and dynamic analysis || http://www.reddit.com/r/ReverseEngineering/comments/smf4u/reverser_wanting_to_develop_mathematically/c4fa6yl ||
+||BOINC Papers|| N/A || http://boinc.berkeley.edu/trac/wiki/BoincPapers||
