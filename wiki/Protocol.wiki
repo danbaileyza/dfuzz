@@ -127,3 +127,26 @@ REPORT RESPONSE
 || Configuration Type || 2 bytes || 1 (Dfuzz Configuration), 2 (application configuration), 3 (fuzzer configuration). (Integer) || 
 || Number of configuration files || 4 bytes || Integer || 
 || Taget Location For Configuration || 12 bytes || Path to where the configuration file will be loaded. <br> This field shall be added for each additional configuration file. (Ascii) || 
+
+
+=Message Types=
+The Message Type field in the DFUZZ Header is a numerical representation of the type of message sent (ie., PUSH PROGRAM, PUSH CONFIG, QUERY STATUS, REPORT CRASH, etc..). The number/integer corresponding to the particular message is detailed below: 
+1  PUSH PROGRAM <br>
+2  PUSH CONFIG <br>
+3  PUSH DATA <br>
+4  PUSH UPDATE <br>
+5  PUSH DELETE <br>
+6  PUSH START <br>
+7  PUSH KILL <br>
+8  PUSH CMD <br>
+9  PUSH RESPONSE <br>
+20 QUERY STATUS <br>
+21 QUERY RESOURCES <br>
+22 QUERY SETUP <br>
+23 QUERY PROGRESS <br>
+24 QUERY RESPONSE <br>
+40 REPORT CRASH <br>
+41 REPORT PROGRESS <br>
+42 REPORT READY <br>
+43 REPORT ERROR <br>
+44 REPORT RESPONSE <br>
