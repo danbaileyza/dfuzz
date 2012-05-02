@@ -101,5 +101,5 @@ Server to server interaction is a potential feature that will be explored in lat
 || Next Header || 4 bytes || Integer ||
 || Length || 8 bytes || Integer ||
 || Job ID || 8 bytes || Integer ||
-|| Unique Crash Identifier Type || 2 bytes || Number representing the unique crash identification method. This field will be repeated for each crash identifier type and its subsequent crash hash. Crash Identification type implies encoding and hashing algorithm (Integer) ||
+|| Unique Crash Identifier Type || 2 bytes || Number representing the unique crash identification method. <br> This field will be repeated for each crash identifier type and its subsequent crash hash. <br> Crash Identification type implies encoding and hashing algorithm (Integer) ||
 || Unique Crash Hash || 32 bytes || Unique hash (Hex) ||
