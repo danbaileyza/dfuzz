@@ -70,7 +70,7 @@ Messages shall be transferred over TCP port 12456. Data shall be transferred ove
 Messages should be transferred over an encrypted tunnel from and to a client and a server. <br> 
 Client to client interaction is a potential feature that will be explored in later releases of dfuzz. <br>
 Server to server interaction is a potential feature that will be explored in later releases of dfuzz. <br>
-Messages will typically exhibit a REQUEST RESPONSE behavior. <br>
+Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 
 
 
