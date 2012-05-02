@@ -61,19 +61,19 @@ REPORT ERROR
  * Message from the client reporting an error condition
 
 REPORT RESPONSE
- * Message from the server to the client responding with a status (Acknowledge, Acknowledge-Continue)
+ * Message from the server to the client responding with a status (Success, Error, Acknowledge, Acknowledge-Continue)
 
 =Synchronization=
-Protocol will be asynchronous. <br> 
-Messages will be transferred over TCP connection. <br>
-Control Plane Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22 using the SFTP protocol outlined by its respective IETF specification ( http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13 ). <br> 
-Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification ( http://www.nsa.gov/ia/_files/IPMEIR_IS100Core_pdfR1.pdf ). <br> 
-Encrypted traffic can be transferred in transport or tunnel mode. <br>
-Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
-The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
-The Dfuzz control plain traffic (ie., traffic over tcp port 12456) will be a binary protocol. The protocol will be a length specified protocol.  
-Client to client interaction is a potential feature that will be explored in later releases of Dfuzz. <br>
-Server to server interaction is a potential feature that will be explored in later releases of Dfuzz. <br>
+ * Protocol will be asynchronous. <br> 
+ * Messages will be transferred over TCP connection. <br>
+ * Control Plane Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22 using the SFTP protocol outlined by its respective IETF specification ( http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13 ). <br> 
+ * Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification ( http://www.nsa.gov/ia/_files/IPMEIR_IS100Core_pdfR1.pdf ). <br> 
+ * Encrypted traffic can be transferred in transport or tunnel mode. <br>
+ * Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
+ * The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
+ * The Dfuzz control plane traffic (ie., traffic over tcp port 12456) will be a binary protocol. The protocol will be a length specified protocol. <br>  
+ * Client to client interaction is a potential feature that will be explored in later releases of Dfuzz. <br>
+ * Server to server interaction is a potential feature that will be explored in later releases of Dfuzz. <br>
 
 
 
@@ -84,8 +84,16 @@ Server to server interaction is a potential feature that will be explored in lat
 || Next Header || 4 bytes || Integer || 
 || Length || 8 bytes || Length of header+data ||
 || Identification || 16 bytes || Integer ||
+|| Message ID || 12 bytes || Increases per message transaction (ie., Request Response or Request, Ack, Response (Integer) || 
 || Padding || 4 bytes || Zeros || 
 || Data || Variable || Additional headers and their appropriate data ||
+
+=REPORT READY=
+|| *Field || *Length || *Value ||
+|| Next Header || 4 bytes || Integer || 
+|| Length || 8 bytes || Integer || 
+|| First Time || 1 byte || 1 (Clients first time joining network), <br> 2 (Client has finished Job(s) and is ready for more tasking), <br> 3 (Client has recovered from an error and is ready for tasking). (Integer) || 
+
 
 =PUSH START Header Format=
 || *Field || *Length || *Value ||
