@@ -131,6 +131,7 @@ REPORT RESPONSE
 
 =Message Types=
 The Message Type field in the DFUZZ Header is a numerical representation of the type of message sent (ie., PUSH PROGRAM, PUSH CONFIG, QUERY STATUS, REPORT CRASH, etc..). The number/integer corresponding to the particular message is detailed below: <br>
+
 1  PUSH PROGRAM <br>
 2  PUSH CONFIG <br>
 3  PUSH DATA <br>
