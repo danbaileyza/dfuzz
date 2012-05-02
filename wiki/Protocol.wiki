@@ -54,7 +54,7 @@ REPORT ERROR
 =Synchronization=
 Protocol will be asynchronous. <br> 
 Messages will be transferred over TCP connection. <br>
-Messages shall be transferred of TCP port 12456. Data shall be transferred over port 22. <br> 
+Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22. <br> 
 Messages should be transferred over an encrypted tunnel from and to a client and a server. <br> 
 Client to client interaction is a feature that will be explored in later releases of dfuzz. <br>
 Messages will typically exhibit a REQUEST RESPONSE behavior. <br>
