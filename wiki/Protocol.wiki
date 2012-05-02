@@ -124,6 +124,6 @@ REPORT RESPONSE
 || *Field || *Length || *Value ||
 || Next Header || 4 bytes || Integer ||
 || Length || 8 bytes || Integer ||
-|| Configuration Type || 2 bytes || 1 for Dfuzz Configuration, 2 for application configuration, 3 for fuzzer configuration || 
+|| Configuration Type || 2 bytes || 1 (Dfuzz Configuration), 2 (application configuration), 3 (fuzzer configuration). (Integer) || 
 || Number of configuration files || 4 bytes || Integer || 
 || Taget Location For Configuration || 12 bytes || Path to where the configuration file will be loaded. <br> This field shall be added for each additional configuration file. (Ascii) || 
