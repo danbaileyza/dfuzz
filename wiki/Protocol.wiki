@@ -82,7 +82,7 @@ Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 || Length || 8 bytes || Length of header+data ||
 || Identification || 16 bytes || Integer ||
 || Padding || 4 bytes || Zeros || 
-|| Data || Variable || Additional Headers and their appropriate data ||
+|| Data || Variable || Additional headers and their appropriate data ||
 
 
 |"AAAA" (4 bytes) (hex)| Message Type (4 bytes) (integer) | Next Header (4 bytes) | Length (8 bytes) | Request/Response (1 byte) (integer) | Message ID (8 bytes) | Identification (16 bytes) (integer) | Padding (4 bytes) (zero) | Data (Variable) (raw) 
