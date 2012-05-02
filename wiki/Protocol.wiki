@@ -26,6 +26,9 @@ PUSH START
 PUSH CMD
  * Message from the server to the client to execute a command
 
+PUSH RESPONSE
+ * Message from the client to the server acknowledging the request and responding with a status code (eg., Success, Error, Acknowledge-Continue)
+
 ==QUERY==
 
 QUERY STATUS
@@ -36,6 +39,12 @@ QUERY RESOURCES
 
 QUERY SETUP
  * Message from the server asking what applications, configurations and data are installed on the client
+
+QUERY PROGRESS
+ * Message from the server to the client asking about information on a particular job
+
+QUERY RESPONSE
+ * Message from the client to the server responding with a status code (eg., Sucess, Error, Acknowledge-Continue)
 
 ==REPORT==
 
@@ -50,6 +59,9 @@ REPORT READY
 
 REPORT ERROR
  * Message from the client reporting an error condition
+
+REPORT RESPONSE
+ * Message from the server to the client responding with a status (Acknowledge, Acknowledge-Continue)
 
 =Synchronization=
 Protocol will be asynchronous. <br> 
