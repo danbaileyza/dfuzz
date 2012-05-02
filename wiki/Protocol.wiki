@@ -71,10 +71,11 @@ Messages should be transferred over an encrypted tunnel from and to a client and
 Client to client interaction is a potential feature that will be explored in later releases of dfuzz. <br>
 Server to server interaction is a potential feature that will be explored in later releases of dfuzz. <br>
 Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
+The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
 
 
 
-=Header Format=
+=DFUZZ Header Format=
 || *Field || *Length || *Value ||
 || DFUZZ Header Identification Number || 4 bytes || AAAA (hex) ||
 || Message Type || 4 bytes || Integer  ||
@@ -83,6 +84,7 @@ Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 || Identification || 16 bytes || Integer ||
 || Padding || 4 bytes || Zeros || 
 || Data || Variable || Additional headers and their appropriate data ||
+
 
 
 |"AAAA" (4 bytes) (hex)| Message Type (4 bytes) (integer) | Next Header (4 bytes) | Length (8 bytes) | Request/Response (1 byte) (integer) | Message ID (8 bytes) | Identification (16 bytes) (integer) | Padding (4 bytes) (zero) | Data (Variable) (raw) 
