@@ -89,8 +89,9 @@ Server to server interaction is a potential feature that will be explored in lat
 =PUSH START Header Format=
 || *Field || *Length || *Value ||
 || Next Header || 4 bytes || Integer || 
+|| Length || 8 bytes || Integer || 
 || Job ID || 8 bytes || Integer || 
 || Program Name || 8 bytes || Ascii || 
-||  
+|| Users || 4 bytes ||  Number of users (Integer)||
+|| Username || 4 bytes || This field will be repeated for each additional user (Ascii) || 
 
-|"AAAA" (4 bytes) (hex)| Message Type (4 bytes) (integer) | Next Header (4 bytes) | Length (8 bytes) | Request/Response (1 byte) (integer) | Message ID (8 bytes) | Identification (16 bytes) (integer) | Padding (4 bytes) (zero) | Data (Variable) (raw) 
