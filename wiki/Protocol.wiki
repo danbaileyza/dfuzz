@@ -67,7 +67,7 @@ REPORT RESPONSE
 Protocol will be asynchronous. <br> 
 Messages will be transferred over TCP connection. <br>
 Messages shall be transferred over TCP port 12456. Data shall be transferred over port 22. <br> 
-Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification <br> 
+Messages should be transferred over an encrypted tunnel from and to a client and a server. Encrypted traffic shall adhere to the IPMEIR Specification. <br> 
 Encrypted traffic can be transferred in transport or tunnel mode. <br>
 Messages will typically exhibit a REQUEST RESPONSE behaviour. <br>
 The DFUZZ header shall be present in all control plain traffic (ie., messages over port 12456) <br>
