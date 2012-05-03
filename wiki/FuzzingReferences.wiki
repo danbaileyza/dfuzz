@@ -16,3 +16,7 @@
 =Virtualization References=
 || *Author(s) || *Title || *Link ||
 || N/A || OVF Tool Users Guide || www.vmware.com/pdf/ovf_tool.pdf ||
+
+=Linux References=
+|| *Author(s) || *Title || *Link ||
+|| N/A || Comparison of X Window System desktop environments || http://en.wikipedia.org/wiki/Comparison_of_X_Window_System_desktop_environments ||
