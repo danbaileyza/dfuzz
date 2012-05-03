@@ -16,7 +16,7 @@
 =Virtualization References=
 || *Author(s) || *Title || *Link ||
 || Distributed Management Task Force || Open Virtualization Format Specification || http://www.dmtf.org/standards/published_documents/DSP0243_1.0.0.pdf ||
-|| N/A || OVF Tool Users Guide || www.vmware.com/pdf/ovf_tool.pdf ||
+|| N/A || OVF Tool Users Guide || http://www.vmware.com/pdf/ovf_tool.pdf ||
 
 =Linux References=
 || *Author(s) || *Title || *Link ||
