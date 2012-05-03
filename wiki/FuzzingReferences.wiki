@@ -9,3 +9,4 @@
 || N/A || Windbg (Automation) || http://www.codeproject.com/Articles/6230/Auto-Memory-Dump-on-Crash-of-an-Application ||
 || N/A || Links for static and dynamic analysis || http://www.reddit.com/r/ReverseEngineering/comments/smf4u/reverser_wanting_to_develop_mathematically/c4fa6yl ||
 ||BOINC Papers|| N/A || http://boinc.berkeley.edu/trac/wiki/BoincPapers||
+|| CERT CC || Basic Fuzzing Framework || https://www.cert.org/blogs/certcc/2012/04/cert_basic_fuzzing_framework_v.html ||
