@@ -1,3 +1,5 @@
+=Fuzzing References==
+
 || *Author(s) || *Title || *Link ||
 || David P. Anderson, Eric Korpela, Rom Walton, || High-Performance Task Distribution for Volunteer Computing || http://boinc.berkeley.edu/boinc_papers/server_perf/server_perf.pdf ||
 || Dr. David P. Anderson  || Public Computing: Reconnecting People to Science || https://boinc.berkeley.edu/madrid.html ||
@@ -10,3 +12,7 @@
 || N/A || Links for static and dynamic analysis || http://www.reddit.com/r/ReverseEngineering/comments/smf4u/reverser_wanting_to_develop_mathematically/c4fa6yl ||
 ||BOINC Papers|| N/A || http://boinc.berkeley.edu/trac/wiki/BoincPapers||
 || CERT CC || Basic Fuzzing Framework || https://www.cert.org/blogs/certcc/2012/04/cert_basic_fuzzing_framework_v.html ||
+
+=Virtualization References=
+|| *Author(s) || *Title || *Link ||
+|| N/A || OVF Tool Users Guide || www.vmware.com/pdf/ovf_tool.pdf ||
