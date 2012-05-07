@@ -84,6 +84,7 @@ REPORT RESPONSE
 || Next Header || 4 bytes || Integer || 
 || Length || 8 bytes || Length of header+data ||
 || Identification || 16 bytes || Integer ||
+|| Protocol Version || 2 bytes || 1 (Integer) ||
 || Message ID || 12 bytes || Increases per message transaction (ie., Request Response or Request, Ack, Response (Integer) || 
 || Padding || 4 bytes || Zeros || 
 || Data || Variable || Additional headers and their appropriate data ||
