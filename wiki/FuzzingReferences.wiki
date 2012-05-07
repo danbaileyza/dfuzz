@@ -12,7 +12,7 @@
 || N/A || Links for static and dynamic analysis || http://www.reddit.com/r/ReverseEngineering/comments/smf4u/reverser_wanting_to_develop_mathematically/c4fa6yl ||
 ||BOINC Papers|| N/A || http://boinc.berkeley.edu/trac/wiki/BoincPapers||
 || CERT CC || Basic Fuzzing Framework || https://www.cert.org/blogs/certcc/2012/04/cert_basic_fuzzing_framework_v.html ||
-|| CERT Presentation || Instrumented Fuzz Testing with AIR || https://www.cert.org/vuls/.../Instrumented_Fuzz_Testing_with_AIR_v3.pdf ||
+|| Will Dormann, Robert Seacord  || Instrumented Fuzz Testing with AIR || https://www.cert.org/vuls/.../Instrumented_Fuzz_Testing_with_AIR_v3.pdf ||
 
 =Virtualization References=
 || *Author(s) || *Title || *Link ||
