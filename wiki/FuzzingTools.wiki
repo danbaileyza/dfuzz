@@ -54,4 +54,4 @@
 || oofuzzer || Perl || Linux || http://www.cl.cam.ac.uk/~wmk26/openoffice/ || Mutation || Open office fuzzer || 
 || Fuzzdiff || Python || Linux, Win, || http://code.google.com/p/fuzzdiff/source/browse/trunk/fuzzdiff || Mutation || This is a simple tool designed to help out with crash analysis during fuzz testing.  It selectively "un-fuzzes" portions of a fuzzed file that is known to cause a crash, re-launches the targeted application, and sees if it still crashes.  Eventually, this will yield a file that still causes the crash, but contains a minimum set of changes from the original un-fuzzed file. ||
 || taviso-fuzz || C || Linux || http://freecode.com/projects/taviso-fuzz || Mutation || Random mutation based file fuzzer || 
-|| fuzzgrind || Python || Linux || http://esec-lab.sogeti.com/pages/Fuzzgrind || Generation || Generation based fuzzer that uses constraint solving || 
+|| fuzzgrind || Python, C  || Linux || http://esec-lab.sogeti.com/pages/Fuzzgrind || Generation || Generation based fuzzer that uses constraint solving || 
