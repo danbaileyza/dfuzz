@@ -13,6 +13,7 @@
 ||BOINC Papers|| N/A || http://boinc.berkeley.edu/trac/wiki/BoincPapers||
 || CERT CC || Basic Fuzzing Framework || https://www.cert.org/blogs/certcc/2012/04/cert_basic_fuzzing_framework_v.html ||
 || Will Dormann, Robert Seacord  || Instrumented Fuzz Testing with AIR || https://www.cert.org/vuls/.../Instrumented_Fuzz_Testing_with_AIR_v3.pdf ||
+|| Jared D. DeMott, Richard J. Enbody, William F. Punch || Revolutionizing the Field of Grey-box Attack Surface Testing with Evolutionary Fuzzing || http://www.defcon.org/images/defcon-15/dc15-presentations/DeMott_Enbody_and_Punch/Whitepaper/dc-15-demott_enbody_and_punch-WP.pdf ||
 
 =Virtualization References=
 || *Author(s) || *Title || *Link ||
